@@ -345,20 +345,11 @@
     <Compile Include="Migrations\201812071850165_NumberAvailable.Designer.cs">
       <DependentUpon>201812071850165_NumberAvailable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201812091850590_rentals.cs" />
-    <Compile Include="Migrations\201812091850590_rentals.Designer.cs">
-      <DependentUpon>201812091850590_rentals.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201812092122524_rentalsfinal.cs" />
     <Compile Include="Migrations\201812092122524_rentalsfinal.Designer.cs">
       <DependentUpon>201812092122524_rentalsfinal.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201812102124209_changeRentalID.Designer.cs" />
-    <Compile Include="Migrations\201812102134575_AddRentals1.cs" />
-    <Compile Include="Migrations\201812102141437_Rentals.cs" />
-    <Compile Include="Migrations\201812102141437_Rentals.Designer.cs">
-      <DependentUpon>201812102141437_Rentals.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Rental.cs" />
@@ -725,14 +716,8 @@
     <EmbeddedResource Include="Migrations\201812071850165_NumberAvailable.resx">
       <DependentUpon>201812071850165_NumberAvailable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812091850590_rentals.resx">
-      <DependentUpon>201812091850590_rentals.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812092122524_rentalsfinal.resx">
       <DependentUpon>201812092122524_rentalsfinal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812102141437_Rentals.resx">
-      <DependentUpon>201812102141437_Rentals.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
